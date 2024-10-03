@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.tipos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.centralizar {
+    text-align: center;
+    
+}
+.plano {
+    background-color: rgb(212, 204, 204);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    width: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: auto;
+}
+.memoria {
+    text-align: center;
+}
+
+.MB {
+    text-align: center;
+    color: #898989f0;
+}
+
+.fundo1 {
+    width: 100%;
+    margin: 0px;
+    padding: 8px;
+    background-color: #3b3f41;
+h3 {
+    text-align: center;
+    color: white;
+}
+}
+
+.plano .valor {
+    font-size: 1.5em;
+    padding: 5%;
+    height: 20%;
+    margin-top: -20px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(29, 192, 204);
+
+}
+.botao-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.plano button {
+    background-image: linear-gradient(#add8e6,blue);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+}
+
+.carrinho-img {
+    background-image: linear-gradient(#add8e6,blue);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    width: 40px;
+}
